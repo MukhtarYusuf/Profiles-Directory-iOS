@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1434F78525C9D3F4005E9814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F78425C9D3F4005E9814 /* AppDelegate.swift */; };
+		1434F78725C9D3F4005E9814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F78625C9D3F4005E9814 /* SceneDelegate.swift */; };
+		1434F78C25C9D3F4005E9814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1434F78A25C9D3F4005E9814 /* Main.storyboard */; };
+		1434F78E25C9D3FA005E9814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1434F78D25C9D3FA005E9814 /* Assets.xcassets */; };
+		1434F79125C9D3FA005E9814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1434F78F25C9D3FA005E9814 /* LaunchScreen.storyboard */; };
+		1434F79C25C9E69B005E9814 /* MukFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1434F79A25C9E69B005E9814 /* MukFinalProject.xcdatamodeld */; };
+		1434F79F25C9E9F2005E9814 /* MukProfile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F79D25C9E9F2005E9814 /* MukProfile+CoreDataClass.swift */; };
+		1434F7A025C9E9F2005E9814 /* MukProfile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F79E25C9E9F2005E9814 /* MukProfile+CoreDataProperties.swift */; };
+		1434F7A225C9F7A1005E9814 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7A125C9F7A1005E9814 /* CoreDataStack.swift */; };
+		1434F7A425C9F958005E9814 /* MukProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7A325C9F958005E9814 /* MukProfilesViewController.swift */; };
+		1434F7A725CA00AD005E9814 /* MukProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1434F7A625CA00AD005E9814 /* MukProfileCell.xib */; };
+		1434F7A925CA063C005E9814 /* MukProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7A825CA063C005E9814 /* MukProfileCell.swift */; };
+		1434F7AD25CA08B1005E9814 /* MukNoResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1434F7AC25CA08B1005E9814 /* MukNoResultsCell.xib */; };
+		1434F7B125CA414B005E9814 /* MukProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7B025CA414B005E9814 /* MukProfileDetailsViewController.swift */; };
+		1434F7B325CA5DBF005E9814 /* MukChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7B225CA5DBF005E9814 /* MukChooseViewController.swift */; };
+		1434F7B525CCA32C005E9814 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434F7B425CCA32C005E9814 /* HudView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1434F78125C9D3F4005E9814 /* MukFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1434F78425C9D3F4005E9814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1434F78625C9D3F4005E9814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1434F78B25C9D3F4005E9814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1434F78D25C9D3FA005E9814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1434F79025C9D3FA005E9814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1434F79225C9D3FA005E9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1434F79B25C9E69B005E9814 /* MukFinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MukFinalProject.xcdatamodel; sourceTree = "<group>"; };
+		1434F79D25C9E9F2005E9814 /* MukProfile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MukProfile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1434F79E25C9E9F2005E9814 /* MukProfile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MukProfile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1434F7A125C9F7A1005E9814 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1434F7A325C9F958005E9814 /* MukProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukProfilesViewController.swift; sourceTree = "<group>"; };
+		1434F7A625CA00AD005E9814 /* MukProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukProfileCell.xib; sourceTree = "<group>"; };
+		1434F7A825CA063C005E9814 /* MukProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukProfileCell.swift; sourceTree = "<group>"; };
+		1434F7AC25CA08B1005E9814 /* MukNoResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukNoResultsCell.xib; sourceTree = "<group>"; };
+		1434F7B025CA414B005E9814 /* MukProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		1434F7B225CA5DBF005E9814 /* MukChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukChooseViewController.swift; sourceTree = "<group>"; };
+		1434F7B425CCA32C005E9814 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1434F77E25C9D3F4005E9814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1434F77825C9D3F4005E9814 = {
+			isa = PBXGroup;
+			children = (
+				1434F78325C9D3F4005E9814 /* MukFinalProject */,
+				1434F78225C9D3F4005E9814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1434F78225C9D3F4005E9814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1434F78125C9D3F4005E9814 /* MukFinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1434F78325C9D3F4005E9814 /* MukFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				1434F7A525CA0085005E9814 /* Views */,
+				1434F79925C9E61D005E9814 /* View Controllers */,
+				1434F79825C9E611005E9814 /* Core Data */,
+				1434F78425C9D3F4005E9814 /* AppDelegate.swift */,
+				1434F78625C9D3F4005E9814 /* SceneDelegate.swift */,
+				1434F78A25C9D3F4005E9814 /* Main.storyboard */,
+				1434F78D25C9D3FA005E9814 /* Assets.xcassets */,
+				1434F78F25C9D3FA005E9814 /* LaunchScreen.storyboard */,
+				1434F79225C9D3FA005E9814 /* Info.plist */,
+			);
+			path = MukFinalProject;
+			sourceTree = "<group>";
+		};
+		1434F79825C9E611005E9814 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				1434F79D25C9E9F2005E9814 /* MukProfile+CoreDataClass.swift */,
+				1434F79E25C9E9F2005E9814 /* MukProfile+CoreDataProperties.swift */,
+				1434F79A25C9E69B005E9814 /* MukFinalProject.xcdatamodeld */,
+				1434F7A125C9F7A1005E9814 /* CoreDataStack.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		1434F79925C9E61D005E9814 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1434F7A325C9F958005E9814 /* MukProfilesViewController.swift */,
+				1434F7B025CA414B005E9814 /* MukProfileDetailsViewController.swift */,
+				1434F7B225CA5DBF005E9814 /* MukChooseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1434F7A525CA0085005E9814 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1434F7A625CA00AD005E9814 /* MukProfileCell.xib */,
+				1434F7A825CA063C005E9814 /* MukProfileCell.swift */,
+				1434F7AC25CA08B1005E9814 /* MukNoResultsCell.xib */,
+				1434F7B425CCA32C005E9814 /* HudView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1434F78025C9D3F4005E9814 /* MukFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1434F79525C9D3FA005E9814 /* Build configuration list for PBXNativeTarget "MukFinalProject" */;
+			buildPhases = (
+				1434F77D25C9D3F4005E9814 /* Sources */,
+				1434F77E25C9D3F4005E9814 /* Frameworks */,
+				1434F77F25C9D3F4005E9814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MukFinalProject;
+			productName = MukFinalProject;
+			productReference = 1434F78125C9D3F4005E9814 /* MukFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1434F77925C9D3F4005E9814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Mukhtar Yusuf";
+				TargetAttributes = {
+					1434F78025C9D3F4005E9814 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1434F77C25C9D3F4005E9814 /* Build configuration list for PBXProject "MukFinalProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1434F77825C9D3F4005E9814;
+			productRefGroup = 1434F78225C9D3F4005E9814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1434F78025C9D3F4005E9814 /* MukFinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1434F77F25C9D3F4005E9814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1434F7AD25CA08B1005E9814 /* MukNoResultsCell.xib in Resources */,
+				1434F79125C9D3FA005E9814 /* LaunchScreen.storyboard in Resources */,
+				1434F7A725CA00AD005E9814 /* MukProfileCell.xib in Resources */,
+				1434F78E25C9D3FA005E9814 /* Assets.xcassets in Resources */,
+				1434F78C25C9D3F4005E9814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1434F77D25C9D3F4005E9814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1434F7A225C9F7A1005E9814 /* CoreDataStack.swift in Sources */,
+				1434F79F25C9E9F2005E9814 /* MukProfile+CoreDataClass.swift in Sources */,
+				1434F78525C9D3F4005E9814 /* AppDelegate.swift in Sources */,
+				1434F7A425C9F958005E9814 /* MukProfilesViewController.swift in Sources */,
+				1434F79C25C9E69B005E9814 /* MukFinalProject.xcdatamodeld in Sources */,
+				1434F7B325CA5DBF005E9814 /* MukChooseViewController.swift in Sources */,
+				1434F7B125CA414B005E9814 /* MukProfileDetailsViewController.swift in Sources */,
+				1434F7B525CCA32C005E9814 /* HudView.swift in Sources */,
+				1434F7A925CA063C005E9814 /* MukProfileCell.swift in Sources */,
+				1434F78725C9D3F4005E9814 /* SceneDelegate.swift in Sources */,
+				1434F7A025C9E9F2005E9814 /* MukProfile+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1434F78A25C9D3F4005E9814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1434F78B25C9D3F4005E9814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1434F78F25C9D3FA005E9814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1434F79025C9D3FA005E9814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1434F79325C9D3FA005E9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1434F79425C9D3FA005E9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1434F79625C9D3FA005E9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = MukFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MukhtarYusuf.MukFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1434F79725C9D3FA005E9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = MukFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MukhtarYusuf.MukFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1434F77C25C9D3F4005E9814 /* Build configuration list for PBXProject "MukFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1434F79325C9D3FA005E9814 /* Debug */,
+				1434F79425C9D3FA005E9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1434F79525C9D3FA005E9814 /* Build configuration list for PBXNativeTarget "MukFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1434F79625C9D3FA005E9814 /* Debug */,
+				1434F79725C9D3FA005E9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1434F79A25C9E69B005E9814 /* MukFinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1434F79B25C9E69B005E9814 /* MukFinalProject.xcdatamodel */,
+			);
+			currentVersion = 1434F79B25C9E69B005E9814 /* MukFinalProject.xcdatamodel */;
+			path = MukFinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1434F77925C9D3F4005E9814 /* Project object */;
+}
