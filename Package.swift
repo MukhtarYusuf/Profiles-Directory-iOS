@@ -50,7 +50,8 @@ let package = Package(
                  "SDWebImageSwiftUI"
                  */
             ],
-            path: "MukFinalProject/MukfinalProject/Views"
+            path: "Dependabot"
+//            path: "MukFinalProject/MukfinalProject/Views"
         ),
     ],
     swiftLanguageVersions: [.v5]
