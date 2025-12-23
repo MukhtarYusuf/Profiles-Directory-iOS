@@ -51,7 +51,6 @@ let package = Package(
                  */
             ],
             path: "Dependabot"
-//            path: "MukFinalProject/MukfinalProject/Views"
         ),
     ],
     swiftLanguageVersions: [.v5]
