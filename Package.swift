@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/marmelroy/PhoneNumberKit.git", from: "4.0.0"),
         .package(url: "https://github.com/timbersoftware/SwiftUIRefresh", from: "0.0.3"),
 //        .package(url: "https://dyscan@github.com/Dyneti/dyscan-ios-distribution.git", from: "1.2.6"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "11.0.0")
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "12.8.0")
 //        .package(url: "https://github.com/paywith/mrewards-api-ios", branch: "main"),
 //        .package(url: "https://github.com/Wootric/WootricSDK-iOS", from: "0.27.0")
         
