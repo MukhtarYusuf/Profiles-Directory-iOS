@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "dyscan-ios-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://dyscan@github.com/Dyneti/dyscan-ios-distribution.git",
+      "state" : {
+        "revision" : "b8eb2de034ac9c2d28ba1b94c4c486d3a796ab3a",
+        "version" : "1.4.0"
+      }
+    },
+    {
       "identity" : "firebase-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
