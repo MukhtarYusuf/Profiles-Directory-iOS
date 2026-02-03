@@ -16,6 +16,6 @@ updates:
 registries:
   github:
     type: git
-    url: https://dyscan@github.com/Dyneti/dyscan-ios-distribution.git
+    url: https://github.com
     username: dyscan
     password: ${{secrets.DYSCAN_PASSWORD}}
