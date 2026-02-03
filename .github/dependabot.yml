@@ -12,3 +12,10 @@ updates:
     target-branch: "test_dependabot"
     reviewers:
      - "MukhtarYusuf"
+
+registries:
+  github:
+    type: git
+    url: https://dyscan@github.com/Dyneti/dyscan-ios-distribution.git
+    username: dyscan
+    password: ${{secrets.DYSCAN_PASSWORD}}
